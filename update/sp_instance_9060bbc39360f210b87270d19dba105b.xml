@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced_placeholder_dimensions>false</advanced_placeholder_dimensions>
+        <async_load>false</async_load>
+        <async_load_device_type>desktop,tablet,mobile</async_load_device_type>
+        <async_load_trigger>viewport</async_load_trigger>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder_dimensions>{&#13;	"mobile": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	},&#13;	"desktop": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	},&#13;	"tablet": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	}&#13;}</placeholder_dimensions>
+        <placeholder_dimensions_script><![CDATA[function evaluateConfig(options) { return {	"mobile": {		"height": "250px",		"width": "100%"	},	"desktop": {		"height": "250px",		"width": "100%"	},	"tablet": {		"height": "250px",		"width": "100%"	}}; }]]></placeholder_dimensions_script>
+        <placeholder_template>&lt;!-- 
+	AngularJS template with configurable options.
+	Use the `options` object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&lt;div ng-if="options.maxRowCount === 10"&gt;&lt;/div&gt;
+	The `skeleton-container` class is used for loading placeholders.
+--&gt;
+	&lt;div class="skeleton-container"&gt;
+	&lt;!-- Header Skeleton --&gt;
+	&lt;div class="skeleton-box skeleton-header"&gt;&lt;/div&gt;
+	&lt;!-- Body Skeleton --&gt;
+	&lt;div class="skeleton-box skeleton-line"&gt;&lt;/div&gt;
+	&lt;div class="skeleton-box skeleton-line small"&gt;&lt;/div&gt;
+	&lt;div class="skeleton-box skeleton-line medium"&gt;&lt;/div&gt;
+&lt;/div&gt;</placeholder_template>
+        <preserve_placeholder_size>false</preserve_placeholder_size>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f4507bc39360f210b87270d19dba1070</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 14:44:32</sys_created_on>
+        <sys_id>9060bbc39360f210b87270d19dba105b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_instance_9060bbc39360f210b87270d19dba105b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 14:47:40</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<style>\r\n    .btn-404 {\r\n        display: inline-block;\r\n        padding: 12px 24px;\r\n        margin: 10px;\r\n        border-radius: 8px;\r\n        text-decoration: none;\r\n        font-weight: bold;\r\n        transition: transform 0.2s ease;\r\n        border: 1px solid transparent;\r\n    }\r\n\r\n    .btn-primary-404 {\r\n        background-color: #3b82f6; /* A nice blue */\r\n        color: white;\r\n    }\r\n\r\n    .btn-secondary-404 {\r\n        background-color: #e5e7eb; /* A light gray */\r\n        color: #1f2937; /* A dark gray for text */\r\n    }\r\n\r\n    .btn-404:hover {\r\n        transform: translateY(-2px);\r\n        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\r\n    }\r\n</style>\r\n<div style=\"text-align: center; padding: 40px 20px; font-family: 'Inter', Arial, sans-serif;\">\r\n<h1 style=\"font-size: 3em; color: #1f2937; margin-top: 20px; margin-bottom: 10px;\">Oops! Looks like you've ventured off the map.</h1>\r\n<p style=\"font-size: 1.2em; color: #4b5563; margin-top: 0;\">It seems this page has gone off the grid.</p>\r\n<p style=\"color: #6b7280; max-width: 500px; margin: 20px auto;\">We've searched high and low, from server to server, but the page you're looking for is nowhere to be found. Don't worry, here are a couple of safe routes back.</p>\r\n<div><a class=\"btn-404 btn-primary-404\" href=\"/pm\"> Take me Home </a> <a class=\"btn-404 btn-secondary-404\" href=\"/pm?id=sc_home\"> Browse the Service Catalog </a></div>\r\n</div>",
+		"displayValue": "<style>\n    .btn-404 {\n        display: inline-block;\n        padding: 12px 24px;\n        margin: 10px;\n        border-radius: 8px;\n        text-decoration: none;\n        font-weight: bold;\n        transition: transform 0.2s ease;\n        border: 1px solid transparent;\n    }\n\n    .btn-primary-404 {\n        background-color: #3b82f6; /* A nice blue */\n        color: white;\n    }\n\n    .btn-secondary-404 {\n        background-color: #e5e7eb; /* A light gray */\n        color: #1f2937; /* A dark gray for text */\n    }\n\n    .btn-404:hover {\n        transform: translateY(-2px);\n        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    }\n</style>\n<div style=\"text-align: center; padding: 40px 20px; font-family: 'Inter', Arial, sans-serif;\">\n<h1 style=\"font-size: 3em; color: #1f2937; margin-top: 20px; margin-bottom: 10px;\">Oops! Looks like you've ventured off the map.</h1>\n<p style=\"font-size: 1.2em; color: #4b5563; margin-top: 0;\">It seems this page has gone off the grid.</p>\n<p style=\"color: #6b7280; max-width: 500px; margin: 20px auto;\">We've searched high and low, from server to server, but the page you're looking for is nowhere to be found. Don't worry, here are a couple of safe routes back.</p>\n<div><a class=\"btn-404 btn-primary-404\" href=\"/pm\"> Take me Home </a> <a class=\"btn-404 btn-secondary-404\" href=\"/pm?id=sc_home\"> Browse the Service Catalog </a></div>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=9060bbc39360f210b87270d19dba105b"/>
+</record_update>
